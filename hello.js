@@ -1,10 +1,10 @@
 //hello.ts
 var Greeter = /** @class */ (function () {
     function Greeter() {
-        this.greeting = "People";
+        this.greeting = "Hi";
     }
     Greeter.prototype.greet = function () {
-        return "Hello All, " + this.greeting;
+        return "Hello All People, " + this.greeting;
     };
     return Greeter;
 }());
